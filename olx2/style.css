@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 0; 
+}
+
+
+.header-top {
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    padding: 5px 15px; 
+    margin-right: 80%;
+}
+
+.top-bar-items {
+    display: flex;
+    align-items: center;
+}
+.top-bar-items img{
+
+box-shadow: #333;
+border-radius: 50%;
+}
+.top-bar-items a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.top-bar-items a i {
+    margin-right: 5px;
+}
+
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+   
+}
+
+.logo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px; 
+}
+
+.location-dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.location-dropdown i {
+    margin-right: 5px;
+}
+
+.location-dropdown select {
+    width: 400px;
+    padding: 5px; 
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.search-bar {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar input[type="text"] {
+    width: 500px;
+    padding: 5px 10px; 
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+}
+
+.search-bar button {
+    height: 35px;
+    width: 50px;
+    padding: 5px 10px; 
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 3px 3px 0;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-bar button i {
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.login-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #333;
+}
+.sell-button {
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border-radius: 50%; 
+    width: 80px;
+    height: 40px;
+    border-style: solid;
+    border-width: 5px;
+    border-top-color:#23e5db;
+    border-left-color:#ffce32;
+    border-right-color:#3a77f2;
+    border-bottom-color:#3a77f2;
+    font-size: 15px;
+}
+
+.categories-bar button{
+    margin-left: 2%;
+}
+.categories-bar a {
+display: inline-block;
+
+
+}
+
+
